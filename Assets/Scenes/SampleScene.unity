@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -256,6 +257,29 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b736770508800a74eae2d78fe9b956fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThirdPersonCamera
+  target: {fileID: 1008663575}
+  targetOffset: {x: 0, y: 1.4, z: 0}
+  distance: 4
+  mouseSensitivity: 3
+  minPitch: -25
+  maxPitch: 70
+  collisionRadius: 0.25
+  returnSpeed: 8
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,7 +688,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KnightController
   moveSpeed: 5
   rotationSpeed: 12
+  jumpHeight: 1.5
   animator: {fileID: 0}
+  movementCamera: {fileID: 0}
+--- !u!4 &1008663575 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400050, guid: ba24e610e0a338545b447ff44a3cf1cc, type: 3}
+  m_PrefabInstance: {fileID: 930211228}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
