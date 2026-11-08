@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 86deaf7399d710f459e88f4f32a8095d
+timeCreated: 1504003963
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 69687
+  packageName: Toon RTS Units - Demo
+  packageVersion: 1.1
+  assetPath: Assets/Toon_RTS_demo/sample_scene/ToonRTS__SampleScene.unity
+  uploadId: 980910

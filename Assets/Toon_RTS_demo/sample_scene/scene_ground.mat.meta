@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c31ef92be89ce7b44992dbf8d359682a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 69687
+  packageName: Toon RTS Units - Demo
+  packageVersion: 1.1
+  assetPath: Assets/Toon_RTS_demo/sample_scene/scene_ground.mat
+  uploadId: 980910
